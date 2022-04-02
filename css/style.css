@@ -1,0 +1,126 @@
+/*globo styles 
+----------------------*/
+
+body {
+    background-color:rgb(29, 34, 38) ;
+    color: rgb(8, 8, 8);
+    margin: 0%;
+    font-size: 18px;
+}
+.content_wrap{
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/*Profile nome e outra coisas
+----------------------*/
+.minha_foto{
+    max-width: 150px;
+    width: 50%;
+    position:absolute;
+    float: left;
+}
+.competencias{
+    width: 200px;
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.alinhar {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(29, 34, 38);
+    color: rgb(157, 157, 157);
+}
+
+
+/*Projects PRojetos Ainda não sei es vai ter 
+----------------------*/
+
+/*Work Experience Experiencia 
+----------------------*/
+.work_experience{
+    background-color: rgb(194, 199, 194);
+    padding: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid thick rgb(53, 49, 49);
+    border-radius: 1em;
+    font-weight: lighter;
+}
+
+/*Education Faculdade e cursos quem sabe 
+----------------------*/
+
+.formacao{
+    background-color: rgb(194, 199, 194);
+    padding: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid thick rgb(53, 49, 49);
+    border-radius: 1em;
+    font-weight: lighter;
+}
+
+/*Contact Info linkedin , email e github buscar favicon para colocar aqui 
+----------------------*/
+.rodape {
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer{
+    background-color: rgb(29, 34, 38);
+    padding: 8px;
+    text-align: center;
+    border-radius: 1em;
+    margin-bottom: 30px;
+}
+
+footer a {
+        color: rgb(194, 199, 194);
+        background-color: rgb(116, 116, 116);
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 4px;
+        display: inline;
+        margin-right: 20px;
+}
+
+footer a:hover {
+    background: rgba(29, 34, 38, 0.8);
+}
+
+footer h2 {
+    color: aliceblue;
+    padding: 0%;
+    margin-top: 8px;
+}
+/* Imagens Favicons */
+
+.emailfavicon{
+    width: 30px;
+    margin-bottom: -10px;
+}
+.githubfavicon{
+    width: 35px;
+    margin-bottom: -10px;
+}
+.facebookfavicon{
+    width: 35px;
+    margin-bottom: -10px;
+}
+.linkedinfavicon{
+    width: 35px;
+    margin-bottom: -11px;
+}
